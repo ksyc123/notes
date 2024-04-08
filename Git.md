@@ -14,6 +14,10 @@ x ：删除忽略文件已经对git来说不识别的文件
 
 
 
+git push origin <本地分支名>:<远程分支名>
+
+git push默认将本地分支提交给对应远程分支名的分支
+
 git reset --soft head~1撤销一次提交
 
 git revert head撤销最近一次提交(可push撤销远程提交)
